@@ -14,34 +14,34 @@ Symbols are defined in [`PID_symbols.kicad_sym`](PID_symbols.kicad_sym) (KiCad 1
 
 | Symbol | Reference |
 | --- | --- |
-| `3WayPmaticBall` | `3WayPBall` |
-| `Adj_Choke` | `Adj_Choke` |
+| `3WayPmaticBall` | `TW` |
+| `Adj_Choke` | `CK` |
 | `Ball_Valve` | `BV` |
 | `Check_Valve` | `CV` |
-| `MBallValve` | `MB_V` |
-| `Needle_Valve` | `Needle_Valve` |
-| `Pneumatic_Rotary_Ball_Valve` | `Pmatic_B_Valve` |
-| `Relief_Valve` | `Relief_Valve` |
-| `Servo_Ball_Valve` | `SBV` |
+| `MBallValve` | `MB` |
+| `Needle_Valve` | `NV` |
+| `Pneumatic_Rotary_Ball_Valve` | `PV` |
+| `Relief_Valve` | `RV` |
+| `Servo_Ball_Valve` | `SB` |
 
 ### Solenoids
 
 | Symbol | Reference |
 | --- | --- |
-| `Normally Open Solenoid` | `nO_Sol` |
-| `Normally_Closed_Solenoid` | `nC_Sol` |
-| `Pneumatic_Solenoid` | `Pn_Sol` |
-| `Solenoid_3/2` | `3/2Solenoid` |
-| `Solenoid_5/2` | `5/2Solenoid` |
+| `Normally Open Solenoid` | `NOS` |
+| `Normally_Closed_Solenoid` | `NCS` |
+| `Pneumatic_Solenoid` | `PNS` |
+| `Solenoid_3/2` | `S32` |
+| `Solenoid_5/2` | `S52` |
 
 ### Regulators and relief devices
 
 | Symbol | Reference |
 | --- | --- |
-| `Burst_Disc` | `Burst_Disc` |
-| `Dome_Reg` | `Dome` |
-| `Pressure_Regulator` | `Servo_Reg` |
-| `SPRV` | `SPRV` |
+| `Burst_Disc` | `BD` |
+| `Dome_Reg` | `DR` |
+| `Pressure_Regulator` | `PR` |
+| `SPRV` | `SP` |
 
 ### Sensors and instruments
 
@@ -49,7 +49,7 @@ Symbols are defined in [`PID_symbols.kicad_sym`](PID_symbols.kicad_sym) (KiCad 1
 | --- | --- |
 | `Coriolis_Flow` | `CF` |
 | `DP_Sensor` | `DP` |
-| `Manual_Pressure_Gauge` | `Manual_Pressure_Gauge` |
+| `Manual_Pressure_Gauge` | `PG` |
 | `Pressure_Transducer` | `PT` |
 | `Thermocouple` | `TC` |
 
@@ -57,30 +57,30 @@ Symbols are defined in [`PID_symbols.kicad_sym`](PID_symbols.kicad_sym) (KiCad 1
 
 | Symbol | Reference |
 | --- | --- |
-| `Common_Bulkhead_Tank_F/0` | `U` |
-| `Common_Dome_Tank` | `CommonDomeTank` |
+| `Common_Bulkhead_Tank_F/0` | `CB` |
+| `Common_Dome_Tank` | `CD` |
 | `Cylinder` | `C` |
-| `Tank_RiserLine` | `T` |
-| `Tank_TopBottom` | `T` |
+| `Tank_RiserLine` | `TR` |
+| `Tank_TopBottom` | `TB` |
 
 ### Fittings and lines
 
 | Symbol | Reference |
 | --- | --- |
 | `Bulkhead_Connector` | `BC` |
-| `Filter` | `Filter` |
-| `Hose` | `Hose` |
+| `Filter` | `FL` |
+| `Hose` | `HS` |
 | `Quick_Disconnect` | `QD` |
 | `Reducer` | `RD` |
 | `Tee` | `T` |
 | `X` | `X` |
-| `stop` | `U` |
+| `stop` | `ST` |
 
 ### Equipment
 
 | Symbol | Reference |
 | --- | --- |
-| `Air_Compressor` | `Air_Compressor` |
-| `Engine` | `Engine` |
+| `Air_Compressor` | `AC` |
+| `Engine` | `EN` |
 | `Nozzle` | `NZ` |
-| `Solid_Igniter` | `U` |
+| `Solid_Igniter` | `IG` |
