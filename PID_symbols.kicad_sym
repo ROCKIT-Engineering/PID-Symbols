@@ -8591,7 +8591,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "CC"
-			(at 5.08 0 0)
+			(at 0 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8657,6 +8657,24 @@
 					(type background)
 				)
 			)
+			(pin output line
+				(at -3.81 2.54 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -1.27 5.08 270)
 				(length 1.27)
@@ -8675,10 +8693,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -5.08 90)
-				(length 0)
-				(name ""
+			(pin input line
+				(at 1.27 5.08 270)
+				(length 1.27)
+				(name "Fu"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8694,9 +8712,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 5.08 270)
+				(at 3.81 2.54 180)
 				(length 1.27)
-				(name "Fu"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10817,6 +10835,136 @@
 				(at 0 2.54 270)
 				(length 1.35)
 				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TorchIgniter"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "CC"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TorchIgniter_1_1"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -2.54 3.81) (xy -2.54 0) (xy -1.27 -1.27) (xy -2.54 -5.08) (xy 2.54 -5.08) (xy 1.27 -1.27)
+					(xy 2.54 0) (xy 2.54 3.81) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -1.27 5.08 270)
+				(length 1.27)
+				(name "Ox"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -6.35 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 5.08 270)
+				(length 1.27)
+				(name "Fu"
 					(effects
 						(font
 							(size 1.27 1.27)
