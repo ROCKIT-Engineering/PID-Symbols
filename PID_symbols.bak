@@ -10925,6 +10925,24 @@
 					(type background)
 				)
 			)
+			(pin output line
+				(at -3.81 2.54 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -1.27 5.08 270)
 				(length 1.27)
